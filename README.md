@@ -1,3 +1,3 @@
 # coding-mobile
 
-## Minha Lojinha de Coding Mobile
+## Minha lojinha de coding mobile
