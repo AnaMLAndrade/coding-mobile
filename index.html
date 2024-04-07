@@ -9,9 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- mapa -->
+
     <link rel="shortcut icon" href="img/foto.webp" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+
 </head>
 <body>
 
@@ -36,7 +42,22 @@
         </div>
     </div>
 
+    <div class="api">
+        <h1 class="titulo">Pelúcias Fofas</h1>
+        <img id="plushImage" src="" alt="Pelúcia fofa">
+        <button id="newPlushButton">Nova Pelúcia</button>
+      
+        <audio id="audioPlayer" src="/gatinho.mp3"></audio>       
+
+    </div>
+
+    <div class="container">
+        <h1 class="titulo1">Onde você está?</h1>
+        <div id="map"></div>
+    </div>
+
+
     
-    
+    <script src="script.js"></script>
 </body>
 </html>
